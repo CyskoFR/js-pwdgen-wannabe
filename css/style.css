@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.password-generator {
+    border: 1px solid grey;
+    max-width: 400px;
+    margin-left: 12px;
+    margin-right: 12px;
+    background-image: url(../img/cielo-stellato.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.password-generator h1, .password-generator p {
+    color: white;
+    text-shadow: 1px 1px 4px orange;
+}
+
+#password_button {
+    padding: 4px 12px;
+    border-radius: 12px;
+    border: none;
+    background-color: lightgrey;
+}
+
+#password_button:hover {
+    transform: scale(110%);
+    outline: 1px solid white;
+    outline-offset: 2px;
+    background-color: white;
+}
+
+#password_box {
+    border: 1px solid grey;
+    max-width: 260px;
+    min-height: 30px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: black;
+    background-color: white;
+    filter: blur(3px);
+    overflow: auto;
+}
+
+#password_box:hover {
+    transition: 0.5s;
+    filter: none;
+}
